@@ -27,6 +27,11 @@ global.ReactBootstrap = {
 };
 
 global.uuid = require('uuid');
+global.McFly = require('mcfly');
+global.Flux = require('flux');
+global.Biff = require('biff');
+//global.mui  = require('material-ui');
+global.request = require('superagent');
 
 require('./public/js/common/rubix-bootstrap/rubix-bootstrap.js');
 require('./public/js/common/react-l20n/react-l20n.js');
